@@ -11,7 +11,7 @@ export const Admin=({data,deleteSingleAdmin,handleSearch})=>{
         <h3>Admin Dashboard</h3>
         <div>
             <input type="text" onChange={(e)=>{handleSearch(e.target.value)}} placeholder="Search by email name role"/>
-            <button onClick={()=>handleSearch(text)}>Find</button>
+            {/* <button onClick={()=>handleSearch(text)}>Find</button> */}
         </div>
         <TableContainer>
     <Table size="lg">
